@@ -1179,9 +1179,9 @@ opcion2=IntVar()
 
 ventana.geometry("678x780")
 ventana.title("Pokedex")
-ventana.iconbitmap('Grafico\logo.ico')
+ventana.iconbitmap('resources\logo.ico')
 #fondo
-bg = PhotoImage(file='Grafico\poked3.png')
+bg = PhotoImage(file='resources\poked3.png')
 my_label = Label(ventana, image=bg)
 my_label.place(x=0, y=0, relwidth=1, relheight=1)
 ventana.resizable(False, False)
