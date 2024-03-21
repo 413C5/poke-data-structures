@@ -4,6 +4,8 @@ import os
 from clases import Pokemon,Region,Generacion,Id,Pokedex
 from Arbol import ArbolBusquedaBinaria
 os.system('cls')
+icon_path = os.path.join('resources', 'logo.ico')
+bg_path = os.path.join('resources', 'poked3.png')
 
 #Listas de base de datos
 pokedex=ListasSimplementeLigada()
@@ -1179,9 +1181,9 @@ opcion2=IntVar()
 
 ventana.geometry("678x780")
 ventana.title("Pokedex")
-ventana.iconbitmap('resources\logo.ico')
+ventana.iconbitmap(icon_path)
 #fondo
-bg = PhotoImage(file='resources\poked3.png')
+bg = PhotoImage(file=bg_path)
 my_label = Label(ventana, image=bg)
 my_label.place(x=0, y=0, relwidth=1, relheight=1)
 ventana.resizable(False, False)

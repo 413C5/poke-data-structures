@@ -1,0 +1,12 @@
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore the __pycache__ directory in the root directory
+__pycache__
+
+# Ignore the __pycache__ directory within the src folder
+src/__pycache__/
+
+# Ignore build and dist folders
+build/
+dist/
